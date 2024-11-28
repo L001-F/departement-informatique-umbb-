@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umbb faculte de sicence Departement D'informatique</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container"> 
+        <!-- Header Section -->
+        <header id="Accueil">
+            <h1>Departement <br> D'informatique</h1>
+            <div class="toggle-icon" onclick="toggleSidebar()">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#Accueil">Accueil</a></li>
+                    <li><a href="#Notre-Departement">Notre Departement</a></li>
+                    <li><a href="#Clubs">Clubs</a></li>
+                    <li><a href="#Filières">Filières</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+            <nav class="sidebar">
+                <span class="close-btn" onclick="toggleSidebar()">&times;</span>
+                <ul>
+                    <li><a href="#Accueil">Accueil</a></li>
+                    <li><a href="#Notre-Departement">Notre Departement</a></li>
+                    <li><a href="#Clubs">Clubs</a></li>
+                    <li><a href="#Filières">Filières</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Main Section -->
+        <main id="Notre-Departement" class="main-content">
+            <!-- Hero Section -->
+            <section class="slide slide-active-hero1">
+                <div class="hero1-content">
+                    <h2>Enseignants <br> Qualifiés</h2>
+                    <p>Des programmes régulièrement mis à jour pour inclure les dernières avancées technologiques.</p>
+                </div>
+                <img src="images/img1.png" alt="Art Image" class="hero-img">
+            </section>
+        
+            <section class="slide slide-hero2">
+                <div class="hero2-content">
+                    <h2>Projets<br> Pratiques</h2>
+                    <p>Une équipe pédagogique expérimentée composée de professeurs et chercheurs passionnés.</p>
+                </div>
+                <img src="images/img3.png" alt="Art Image" class="hero-img">
+            </section>
+        
+            <section class="slide slide-hero3">
+                <div class="hero3-content">
+                    <h2>Équipements<br> modernes</h2>
+                    <p>Fournir des compétences approfondies en ingénierie logicielle, réseaux, bases de données et intelligence artificielle.</p>
+                </div>
+                <img src="images/img2.png" alt="Art Image" class="hero-img">
+            </section>
+        
+            <div class="carousel-controls">
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
+            </div>
+        </main>
+
+        <!--  Section clubs -->
+        <section id="Clubs" class="gallery">
+            <h3>Rejoignez Nos Clubs d'Informatique !</h3>
+            <p>Vous êtes passionné(e) par le développement, l’intelligence artificielle, les réseaux ou la cybersécurité ? <br>Vous rêvez de collaborer sur des projets innovants, d’élargir vos compétences et de faire partie d’une communauté dynamique ?<br>espace et enrichir votre collection artistique.</p>
+            <div class="gallery-images">
+                <div class="art-piece">
+                    <img src="images/cybers.png" alt="Art 1">
+                    <p>CS Club</p>
+                </div>
+                <div class="art-piece">
+                    <img src="images/sec.png" alt="Art 2">
+                    <p>SEC Club</p>
+                </div>
+                <div class="art-piece">
+                    <img src="images/mlh.png" alt="Art 3">
+                    <p>MLH Club</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Filières Section -->
+        <div id="Filières" class="artist-gallery-container">
+            <h3>Filières de Master au Département d'Informatique</h3>
+            <div class="artist-gallery">
+                <div class="artist-piece">
+                    <img src="images/softwar.png" alt="Les rêve by Pablo Picasso">
+                    <h2>Informatique Générale</h2>
+                    <p>(IG)</p>
+                </div>
+                <div class="artist-piece">
+                    <img src="images/si.png" alt="Le Violoniste Bleu by Marc Chagall">
+                    <h2>Systèmes d’Information</h2>
+                    <p>(SI)</p>
+                </div>
+                <div class="artist-piece">
+                    <img src="images/rt.png" alt="Cariatide by Amedeo Modigliani">
+                    <h2>Réseaux et Télécommunications</h2>
+                    <p>(RT)</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Newsletter Section -->
+        <section id="Contact" class="newsletter">
+            <h3>Restez <br>Connecté <br>à notre Département</h3>
+            <p>Abonnez-vous à notre newsletter <br> pour découvrir en avant-première<br>nos nouvelles œuvres</p>
+            <input type="email" placeholder="Votre adresse e-mail">
+            <button>Je m'abonne</button>
+        </section>
+
+        <section id="Contect" class="Mnewsletter">
+            <h3>Restez Connecté <br>à l'Art</h3>
+            <p>Abonnez-vous à notre newsletter <br> pour découvrir en avant-première<br>nos nouvelles œuvres</p>
+            <input type="email" placeholder="Votre adresse e-mail">
+            <button>Je m'abonne</button>
+        </section>
+
+        <!-- Footer Section -->
+        <footer id="Contact" class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <p><a href="#Accueil">Accueil</a></p>
+                    <p><a href="#Notre-Departement">Notre Departement</a></p>
+                    <p><a href="#Clubs">Clubs</a></p>
+                </div>
+                <div class="footer-section">
+                    <p><a href="#Contact">Contact</a></p>
+                </div>
+                <div class="footer-section-">
+                    <h2>Réseaux sociaux</h2>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section-contact">
+                    <h2>Contact</h2>
+                    <p>Tél: (024) 79 90 09</p>
+                    <p>Adresse: QF2C+W7H<br>Boumerdes 35000</p>
+                </div>
+            </div>
+        </footer>
+
+        <footer id="Contact" class="mobile-footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <p><a href="#Accueil">Accueil</a></p>
+                    <p><a href="#Notre-Departement">Notre Departement</a></p>
+                    <p><a href="#Clubs">Clubs</a></p>
+                    <p><a href="#Contact">Contact</a></p>
+                </div>
+                <div class="footer-section-rs">
+                    <p><strong>Réseaux sociaux</strong></p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section-contact">
+                    <h2>Contact</h2>
+                    <p>Tél: (024) 79 90 09</p>
+                    <p>Adresse: QF2C+W7H<br>Boumerdes 35000</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+    <script src="gallery.js"></script>
+    <script src="sidebar-toggle.js"></script>
+
+</body>
+</html>
